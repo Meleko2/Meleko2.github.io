@@ -1,0 +1,171 @@
+/*Google fonts: Kanit 500, Inter, Roboto Mono 600 */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@500&family=Roboto+Mono:wght@600&display=swap');
+
+body
+{
+    background-color: #064663;
+    margin: 0;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: #041C32;
+    padding: 8px 0px;
+    z-index: 999;
+}
+
+.navigation > a
+{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Kanit';
+    font-size: 25px;
+    border-style: solid;
+    border-color: #8a8a8a;
+    padding: 10px;
+    border-radius: 18px;
+    transition: all 0.2s ease-out;
+    -moz-transition: all 0.2 ease-out;
+}
+
+.navigation > a:hover
+{
+    border-color: #ECB365;
+    color: #ECB365;
+    background-color: #1b4974;
+}
+
+.container
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.text
+{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #ececec;
+}
+
+.header
+{
+    color: #ececec;
+    font-size: 40px;
+    font-family: 'Roboto mono';
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ml-10
+{
+    margin-left: 10px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+    color: #ececec;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ul li:before
+{
+    content: "•";
+    color: #ECB365;
+    margin-right: 10px;
+}
+
+.img-center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mediumHeader
+{
+    color: #ececec;
+    font-size: 50px;
+    font-family: 'Roboto mono';
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*z Pythona style*/
+.picture
+{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.link
+{
+    color: rgb(127, 255, 212);
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+    -moz-transition: all 0.2 ease-out;
+}
+
+.link:hover
+{
+    color: rgb(107, 209, 175);
+}
+
+.prezentacjaKodu
+{
+    width: 250px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #3282B8;
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit';
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px 3px rgba(6, 70, 99, 1);
+    -moz-box-shadow: inset 0px 0px 10px 3px rgba(6, 70, 99, 1);
+}
+
+
+@media screen and (max-width: 982px)
+{
+
+    .header
+    {
+        font-size: 30px;
+    }
+
+    .text
+    {
+        font-size: 15px;
+    }
+    
+    .link
+    {
+        font-size: 12px;
+    }
+
+    .container
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
