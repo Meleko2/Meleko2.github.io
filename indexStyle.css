@@ -34,7 +34,7 @@
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
+    height: 100%;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
 }

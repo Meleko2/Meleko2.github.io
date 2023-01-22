@@ -11,8 +11,6 @@ body
 {
     display: flex;
     justify-content: space-around;
-    position: sticky;
-    top: 0;
     background-color: #041C32;
     padding: 8px 0px;
     z-index: 999;
@@ -63,13 +61,8 @@ body
     font-size: 40px;
     font-family: 'Roboto mono';
     margin-top: 20px;
-    text-align: center;
 }
 
-.ml-10
-{
-    margin-left: 10px;
-}
 
 ul
 {
@@ -81,7 +74,7 @@ li
     color: #ececec;
     font-family: 'Inter';
     font-size: 20px;
-    line-height: 30px;
+    margin-bottom: 8px;
 }
 
 ul li:before
@@ -143,6 +136,67 @@ ul li:before
     -moz-box-shadow: inset 0px 0px 10px 3px rgba(6, 70, 99, 1);
 }
 
+.bigHeader
+{
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Inter';
+}
+
+.mt-5
+{
+    margin-top: 50px;
+}
+
+.mb-5
+{
+    margin-bottom: 50px;
+}
+
+.ml-4
+{
+    margin-left: 40px;
+}
+
+/*Podstrony*/
+.flexContainer
+{
+    margin-left: 250px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.spisTresci
+{
+    text-align: start;
+}
+
+.linkSpis
+{
+    color: #fff;
+}
+
+.main
+{
+    width: 1845px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .flexContainer{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .spisTresci{
+        display: none;
+    }
+    .flexContainer{
+        margin-right: 150px;
+    }
+}
 
 @media screen and (max-width: 982px)
 {
@@ -168,4 +222,25 @@ ul li:before
         margin-right: 20px;
     }
 
+    .mediumHeader
+    {
+        font-size: 40px;
+    }
+
+    .bigHeader
+    {
+        font-size: 55px;
+    }
+
+    .flexContainer
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .bigHeader{
+        font-size: 45px;
+    }   
 }
