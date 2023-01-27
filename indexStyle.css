@@ -6,7 +6,9 @@
 
 #wideBox
 {
-    width: 800px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
     border-style: solid;
     border-color: #000;
     border-width: 1px;
@@ -22,6 +24,17 @@
 #wideBox:hover
 {
     transform: scale(1.1);
+}
+
+#headersBox
+{
+    margin-left: 10px;
+    width: 400px;
+}
+
+#imgBox
+{
+    width: 600px;
 }
 
 .box
@@ -65,6 +78,16 @@
     .box{
         width: 400px;
     }    
+    #wideBox{
+        width: 900px;
+    }
+    #headersBox{
+    margin-left: 10px;
+    width: 400px;
+    }
+    #imgBox{
+        width: 500px;
+    }
 }
 
 @media screen and (max-width:1150px) {
@@ -74,12 +97,22 @@
     .text{
         font-size: 17.5px;
     }
+    #wideBox{
+        width: 800px;
+    }
+    #headersBox{
+    margin-left: 10px;
+    width: 400px;
+    }
+    #imgBox{
+        width: 400px;
+    }
 }
 
 @media screen and (max-width:1050px) {
     .box{
         width: 330px;
-    }    
+    }
 }
 
 @media screen and (max-width:982px){
@@ -101,10 +134,18 @@
     .box{
         width: 280px;
     }
-    
-    #wideBox{
-        width: 570px;
+
+    #wideBox
+    {
+        display: block;
+        justify-content: none;
+        width: 400px;
     }
+
+    #headersBox{
+        margin-left: 10px;
+    }
+    
 }
 
 @media screen and (max-width: 700px) {
@@ -113,7 +154,7 @@
     }   
 
     #wideBox{
-        width: 350px;
+        width: 400px;
     }
 
     .box{
