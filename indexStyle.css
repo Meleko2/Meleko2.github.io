@@ -1,7 +1,6 @@
 #background
 {
     width: 100%;
-    position: relative;
 }
 
 #wideBox
@@ -63,11 +62,6 @@
     margin-bottom: 100px;
 }
 
-.czytajWiecej
-{
-    text-decoration: none;
-}
-
 @media screen and (max-width:1350px) {
     .box{
         width: 460px;
@@ -81,12 +75,11 @@
     #wideBox{
         width: 900px;
     }
-    #headersBox{
-    margin-left: 10px;
-    width: 400px;
-    }
     #imgBox{
         width: 500px;
+    }
+    #headerBox{
+        width: 400px;
     }
 }
 
@@ -98,13 +91,15 @@
         font-size: 17.5px;
     }
     #wideBox{
-        width: 800px;
+        width: 400px;
+        flex-direction: column;
+        align-items: center;
     }
-    #headersBox{
-    margin-left: 10px;
-    width: 400px;
+    #imgBox
+    {
+        width: 400px;
     }
-    #imgBox{
+    #headerBox{
         width: 400px;
     }
 }
@@ -116,17 +111,9 @@
 }
 
 @media screen and (max-width:982px){
-    .bigHeader{
-        font-size: 35px;
-    }
-
     .box{
         width: 320px;
         margin-bottom: 60px;
-    }
-
-    #wideBox{
-        width: 770px;
     }
 }
 
@@ -134,18 +121,6 @@
     .box{
         width: 280px;
     }
-
-    #wideBox
-    {
-        display: block;
-        justify-content: none;
-        width: 400px;
-    }
-
-    #headersBox{
-        margin-left: 10px;
-    }
-    
 }
 
 @media screen and (max-width: 700px) {
@@ -153,11 +128,21 @@
         flex-direction: column;
     }   
 
-    #wideBox{
-        width: 400px;
-    }
-
     .box{
         width: 320px;
+    }
+
+    #wideBox{
+        width: 340px;
+        align-items: center; 
+        padding-top: 0;
+    }
+
+    #imgBox{
+        transform: scale(86%);
+    }
+
+    #headersBox{
+        transform: scale(92%);
     }
 }
