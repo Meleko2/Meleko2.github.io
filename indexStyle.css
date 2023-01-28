@@ -135,20 +135,21 @@
     }
 
     #wideBox{
-        width: 340px;
+        width: 330px;
         align-items: center; 
         padding-top: 0;
     }
 
     #imgBox{
-        transform: scale(86%);
-        -moz-transform: scale(86%);
-        -webkit-transform: scale(86%);
+        transform: scale(82%);
+        -moz-transform: scale(82%);
+        -webkit-transform: scale(82%);
     }
 
     #headersBox{
-        transform: scale(92%);
-        -moz-transform: scale(92%);
-        -webkit-transform: scale(92%);
+        transform: scale(83%);
+        -moz-transform: scale(83%);
+        -webkit-transform: scale(83%);
+        margin-right: 10px;
     }
 }
