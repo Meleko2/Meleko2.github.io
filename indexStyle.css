@@ -17,6 +17,7 @@
     margin-right: auto;
     margin-bottom: 100px;
     transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
 }
 
@@ -49,6 +50,7 @@
     height: 100%;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 
 .box:hover
@@ -140,9 +142,13 @@
 
     #imgBox{
         transform: scale(86%);
+        -moz-transform: scale(86%);
+        -webkit-transform: scale(86%);
     }
 
     #headersBox{
         transform: scale(92%);
+        -moz-transform: scale(92%);
+        -webkit-transform: scale(92%);
     }
 }
