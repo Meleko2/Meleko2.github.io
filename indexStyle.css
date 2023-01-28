@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-#wideBox
+.wideBox
 {
     display: flex;
     justify-content: center;
@@ -21,18 +21,18 @@
     -moz-transition: all 0.5s ease-in-out;
 }
 
-#wideBox:hover
+.wideBox:hover
 {
     transform: scale(1.1);
 }
 
-#headersBox
+.headersBox
 {
     margin-left: 10px;
     width: 400px;
 }
 
-#imgBox
+.imgBox
 {
     width: 600px;
 }
@@ -74,13 +74,13 @@
     .box{
         width: 400px;
     }    
-    #wideBox{
+    .wideBox{
         width: 900px;
     }
-    #imgBox{
+    .imgBox{
         width: 500px;
     }
-    #headerBox{
+    .headerBox{
         width: 400px;
     }
 }
@@ -92,16 +92,16 @@
     .text{
         font-size: 17.5px;
     }
-    #wideBox{
+    .wideBox{
         width: 400px;
         flex-direction: column;
         align-items: center;
     }
-    #imgBox
+    .imgBox
     {
         width: 400px;
     }
-    #headerBox{
+    .headerBox{
         width: 400px;
     }
 }
@@ -134,19 +134,19 @@
         width: 320px;
     }
 
-    #wideBox{
-        width: 330px;
+    .wideBox{
+        width: 320px;
         align-items: center; 
         padding-top: 0;
     }
 
-    #imgBox{
+    .imgBox{
         transform: scale(82%);
         -moz-transform: scale(82%);
         -webkit-transform: scale(82%);
     }
 
-    #headersBox{
+    .headersBox{
         transform: scale(83%);
         -moz-transform: scale(83%);
         -webkit-transform: scale(83%);

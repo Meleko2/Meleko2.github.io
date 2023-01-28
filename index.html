@@ -10,18 +10,28 @@
     <meta name="keywords" content="Language, jezyki, Programming, programowania, programowanie, nauka, edukacja">
     <meta name="author" content="Meleko2">
     <title>Języki programowania</title>
-    <link rel="icon" href="img/logo.png">
+    <link rel="icon" href="img/smallLogo.png">
     <link rel="stylesheet" href="mainStyle.css">
     <link rel="stylesheet" href="indexStyle.css">
 </head>
 <body>
     
     <!--Navigation-->
-    <div class="navigation">
-        <a href="index.html" class="link-navigation">Tworzenie stron</a>
-        <a href="index.html"><img src="img/logo.png" alt="logo" id="logoIndex"></a>
-        <a href="websites/Zapoznanie/zapoznanie.html" class="link-navigation">Tworzenie gier</a>
-    </div>
+    <div class="top-nav">
+        <div>
+          <a href="index.html"><img src="img/logo.png" alt="Logo" id="logoIndex"></a>
+        </div>
+        <input id="menu-toggle" type="checkbox">
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li><a href="websites/Zapoznanie/zapoznanie.html">Zapoznanie</a></li>
+          <li><a href="websites/gry/gry.html">Tworzenie gier</a></li>
+          <li><a href="websites/stronyInternetowe/strony.html">Tworzenie stron</a></li>
+          <li><a href="websites/jezyki/jezyki.html">O językach</a></li>
+        </ul>
+      </div>
 
     <!--Header-->
     <img id="background" src="img/programmingBackground.png" alt="">
@@ -30,13 +40,13 @@
     <div class="container">
         <h2 class="mediumHeader">Co chcesz programować?</h2>
         <!--Title box-->
-            <div id="wideBox">
+            <div class="wideBox">
                 <!--img Box-->
-                <div id="imgBox">
+                <div class="imgBox">
                     <img src="img/aboutBackground.jpg" alt="programowanie" class="picture">
                 </div>
                 <!--Text Box-->
-                <div id="headersBox">
+                <div class="headersBox">
                     <h3 class="header text-center mb-5">Nie wiesz nic o programowaniu?</h3>
                     <p class="text">Znajdują się tutaj najważniejsze informacje jeżeli nie wiesz nic o programowaniu, a chciałbyś zacząć.</p>
                     <button onclick="location.href='websites/Zapoznanie/zapoznanie.html'">Czytaj więcej</button>
@@ -59,6 +69,20 @@
                 <button onclick="location.href='websites/stronyInternetowe/strony.html'">Czytaj więcej</button>
             </div>
         </div>
+
+        <div class="wideBox">
+            <!--img Box-->
+            <div class="imgBox">
+                <img src="img/aboutBackground.jpg" alt="programowanie" class="picture">
+            </div>
+            <!--Text Box-->
+            <div class="headersBox">
+                <h3 class="header text-center mb-5">O językach programowania</h3>
+                <p class="text">Jeśli coś wiesz o programowaniu oraz o językach programowania ale chciałbyś powiększyć swoją wiedzę na ten temat to dobrze trafiłeś.</p>
+                <button onclick="location.href='websites/Zapoznanie/zapoznanie.html'">Czytaj więcej</button>
+            </div>
+        </div>
+
     </div>
 
     <div class="footer">
@@ -69,8 +93,25 @@
 
         <div class="footer-list">
             <p class="mb-3">Autorzy i źródła zdjęć</p>   
-            <a href="http://www.freepik.com" target="_blank">Designed by Freepik</a><br>
+            <a href="http://www.freepik.com" target="_blank">Designed by Freepik</a>
             <a href="https://unsplash.com" target="_blank">Unsplash</a>
+            <a href="gsmmaniak.pl">gsmmaniak</a>
+            <a href="images.cgames.de">images.cgames</a>
+            <a href="sm.ign.com">sm.ign</a>
+            <a href="internetmatters.org">internetmatters</a>
+            <a href="strefainwestorow.pl">strefainwestorow</a>
+            <a href="cdn1.epicgames.com">epicgames</a>
+            <a href="https://www.nintendo.com/store/products/subnautica-switch">nintendo</a>
+        </div>
+
+        <div class="footer-list">
+            <p class="mb-3">Źródła tekstu</p>
+            <a href="https://infoshareacademy.com/blog/2021/01/18/jak-zaczac-programowac-gry/">infoshareacademy</a>
+            <a href="https://www.giganciprogramowania.edu.pl/blog/jak-zaczac-przygode-z-programowaniem-gier">giganciprogramowania</a>
+            <a href="https://kodilla.com/pl/blog/nauka-programowania-od-zera">kodilla</a>
+            <a href="Unity - Vavatech.pl">Vavatech</a>
+            <a href="https://webwavecms.com/tworzenie-stron-internetowych-to-latwe">webwavecms</a>
+            <a href="https://brief.pl/tworzenie-stron-internetowych-od-czego-powinienes-zaczac/">brief</a>
         </div>
 
     </div>
