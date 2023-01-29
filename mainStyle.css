@@ -237,7 +237,7 @@ body
 
 .bigHeader
 {
-    font-size: 80px;
+    font-size: 70px;
     color: #252525;
     font-family: 'Roboto mono';
 }
@@ -530,7 +530,7 @@ button
 
     .mediumHeader
     {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .bigHeader
@@ -634,7 +634,7 @@ button
 
 @media screen and (max-width:600px) {
     .bigHeader{
-        font-size: 45px;
+        font-size: 35px;
     }
     .main{
         width: 100%;
