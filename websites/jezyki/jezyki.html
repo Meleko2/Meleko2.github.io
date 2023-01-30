@@ -12,6 +12,7 @@
     <title>O językach : jezyki programowania</title>
     <link rel="icon" href="../../img/SmallLogo.png">
     <link rel="stylesheet" href="../../mainStyle.css">
+    <link rel="stylesheet" href="jezyki.css">
 </head>
 <body>
     
@@ -35,7 +36,7 @@
     <div class="flexContainer">
         <div class="main">
 
-            <h1 class="bigHeader">O językach programowania</h1>
+            <h1 class="bigHeader text-center">O językach programowania</h1>
 
             <h2 class="header">Prowadzenie</h2>
             <p class="text">Jak już mogliście przeczytać istnieje ponad 700 języków z czego 50 jest czynnie używanych.<br><br>
@@ -81,18 +82,42 @@
             </p>
 
             <h3 class="header" id="java">Java <img src="../../img/javaLogo.png" alt="Logo Java" class="logo"></h3>
-            <p class="text"></p>
+            <p class="text">Java to wysokopoziomowy język programowania ogólnego zastosowania. Jest w pełni obiektowa, z wyjątkiem kilku typów prostych. Java jest łatwo przenośna, gdyż jest interpretowana przez wieloplatformową maszynę wirtualną Javy (Java Virtual Machine). Java reklamuje się sloganem „Napisz raz, uruchom wszędzie!” jednak nie zawsze jest to takie proste - jest to uzależnione od obecności JVM i ograniczone.
+            <br><br>
+            "Hello, World!" w Javie
+            </p>
+            <p class="prezentacjaKodu" style="font-size: 16px;">
+                public class HelloWorld{<br>
+                    <span class="ml-15">public static void main(String[] args){</span><br>
+                        <span class="ml-4">System.out.println("Hello, World!");</span><br>
+                    <span class="ml-15">}</span><br>
+                }
+            </p>
+
+            <h3 class="header" id="php">PHP <img src="../../img/phpLogo.png" alt="Logo PHP" class="logo"></h3>
+            <p class="text">PHP to skryptowy język programowania umożliwiający tworzenie stron www, sklepów internetowych, a także aplikacji webowych. Język PHP dzięki swoim zaletom jest wykorzystywany jako baza do tworzenia różnego rodzaju rozwiązań internetowych takich jak: frameworki, CMS, systemy CRM czy sklepy internetowe. Wykorzystuje też się go na stronach internetowych do komunikacji z serwerem. 
+            <br><br>
+            "Hello, World!" w PHP
+            Na stronie trzeba zamieścić znacznik &#60;?php  ?&#62;
+            </p>
+
+            <p class="prezentacjaKodu ">
+                &#60;?php<br>
+                <span class="ml-15">echo "Hello, World!";</span><br>
+                ?&#62;
+            </p>
 
         </div>
         <div>
             <ul class="spis-list">
                 <li><a href="#jakiJezyk" class="link-spis">Od jakiego języka zacząć?</a></li>
-                <li><a href="wyjasnienia" class="link-spis">Wyjaśnienie języków</a>
+                <li><a href="#wyjasnienia" class="link-spis">Wyjaśnienie języków</a>
                     <ul class="spis-list">
                         <li><a href="#python" class="link-spis">Python</a></li>
                         <li><a href="#cs" class="link-spis">C#</a></li>
                         <li><a href="#cpp" class="link-spis">C++</a></li>
                         <li><a href="#java" class="link-spis">Java</a></li>
+                        <li><a href="#php" class="link-spis">PHP</a></li>
                     </ul>
                 </li>
             </ul>
@@ -102,33 +127,45 @@
     <div class="footer">
         <div class="footer-list">
             <p class="mb-3">O stronie</p>
-            <a href="#">Strona powstała w celach edukacyjnych</a>
+            <a href="#">Strona powstała w celach edukacyjnych</a><br>
+            <a href="#">Strona jest otwartoźródłowa.<br>
+            Możesz przeglądać jej kod na githubie <a href="https://github.com/Meleko2/Meleko2.github.io" target="_blank">https://github.com/Meleko2/Meleko2.github.io</a></a>
         </div>
 
         <div class="footer-list">
-            <p class="mb-3">Autorzy i źródła zdjęć</p>   
+            <p class="mb-3">Źródła zdjęć</p>   
             <a href="http://www.freepik.com" target="_blank">Designed by Freepik</a>
             <a href="https://unsplash.com" target="_blank">Unsplash</a>
-            <a href="gsmmaniak.pl">gsmmaniak</a>
-            <a href="images.cgames.de">images.cgames</a>
-            <a href="sm.ign.com">sm.ign</a>
-            <a href="internetmatters.org">internetmatters</a>
-            <a href="strefainwestorow.pl">strefainwestorow</a>
-            <a href="cdn1.epicgames.com">epicgames</a>
-            <a href="https://www.nintendo.com/store/products/subnautica-switch">nintendo</a>
+            <a href="https://delante.pl/definicje/certyfikat-ssl/" target="_blank">Delante.pl</a>
+            <a href="https://www.trustedreviews.com/news/fortnite-chapter-3-new-map-battle-pass-skins-release-date-4189712">trustedreviews</a>
+            <a href="https://commons.wikimedia.org/wiki/Strona_główna" target="_blank">Wikimedia commons</a>
+            <a href="https://kodilla.com/pl/blog/jak-efektywnie-uczyc-sie-programowania" target="_blank">Kodilla</a>
+            <a href="https://www.trustedreviews.com/news/pokemon-go-gets-a-special-update-for-iphones-4189154" target="_blank">trusteddreviews</a>
+            <a href="https://wallpaperaccess.com/rust-game" target="_blank">wallpaperaccess - rust</a>
+            <a href="https://wallpaperaccess.com/world-war-3-game" target="_blank">wallpaperaccess - world war 3</a>
+            <a href="https://www.pngfind.com/freepng/unity-logo/" target="_blank">pngfind - unity</a>
+            <a href="https://applet3d.com/3d-rendering/best-architectural-rendering-software/" target="_blank">applet3d - unreal engine</a>
+            <a href="https://store.epicgames.com/en-US/p/subnautica" target="_blank">epic games - subnautica</a>
+            <a href="https://store.epicgames.com/en-US/p/fortnite" target="_blank">epic games = fortnite</a>
+            <a href="https://store.epicgames.com/en-US/p/satisfactory" target="_blank">epic games = satisfactory</a>
+            <a href="https://store.epicgames.com/en-US/p/rocket-league" target="_blank">epic games = rocket league</a>
+            <a href="https://store.epicgames.com/pl/p/cities-skylines" target="_blank">epic games - cities skylines</a>
+
         </div>
 
         <div class="footer-list">
             <p class="mb-3">Źródła tekstu</p>
-            <a href="https://infoshareacademy.com/blog/2021/01/18/jak-zaczac-programowac-gry/">infoshareacademy</a>
-            <a href="https://www.giganciprogramowania.edu.pl/blog/jak-zaczac-przygode-z-programowaniem-gier">giganciprogramowania</a>
-            <a href="https://kodilla.com/pl/blog/nauka-programowania-od-zera">kodilla</a>
-            <a href="Unity - Vavatech.pl">Vavatech</a>
-            <a href="https://webwavecms.com/tworzenie-stron-internetowych-to-latwe">webwavecms</a>
-            <a href="https://brief.pl/tworzenie-stron-internetowych-od-czego-powinienes-zaczac/">brief</a>
+            <a href="https://kodilla.com/pl/blog/nauka-programowania-od-zera" target="_blank">kodilla</a>
+            <a href="https://brief.pl/tworzenie-stron-internetowych-od-czego-powinienes-zaczac/" target="_blank">brief</a>
+            <a href="https://codegym.cc/pl/groups/posts/dlaczego-powiniene-nauczy-si-jzyka-java-w-2020" target="_blank">codegym</a>
+            <a href="https://webwavecms.com/tworzenie-stron-internetowych-to-latwe" target="_blank">webwavecms</a>
+            <a href="https://www.giganciprogramowania.edu.pl/blog/jak-zaczac-przygode-z-programowaniem-gier" target="_blank">giganciprogramowania</a>
+            <a href="https://smartbees.pl/baza-wiedzy/php" target="_blank">smartbees</a>
+            <a href="https://infoshareacademy.com/blog/2021/01/18/jak-zaczac-programowac-gry/" target="_blank">infoshareacademy</a>
+            <a href="https://infoshareacademy.com/blog/2022/12/14/dlaczego-warto-zostac-c-developerem/" target="_blank">infoshareacademy - cs</a>
+            <a href="https://vavatech.pl/technologie/tworzenie-gier/unity" target="_blank">Vavatech - unity</a>
+            <a href="https://vavatech.pl/technologie/jezyki-programowania/cpp" target="_blank">Vavatech - cpp</a>
         </div>
-
-    </div>
 
 </body>
 </html>

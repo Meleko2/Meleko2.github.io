@@ -1,22 +1,7 @@
 /*Google fonts: Kanit 500, Inter, Roboto Mono 400 and 600 */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@500&family=Roboto&family=Roboto+Mono:wght@600&display=swap');
 
-
-.prezentacjaKodu
-{
-    padding: 12px 10px;
-    width: 300px;
-    background-color: #3F72AF;
-    color: rgb(255, 255, 255);
-    font-family: 'Kanit';
-    font-size: 20px;
-    margin-left: 10px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 10px 3px rgba(6, 70, 99, 1);
-    -moz-box-shadow: inset 0px 0px 10px 3px rgba(6, 70, 99, 1);
-}
-
+*{ scroll-behavior: smooth;}
 
 /*Szybkie style*/
 
@@ -319,6 +304,7 @@ body
     content: "•";
     color: #3F72AF;
     margin-right: 10px;
+    scroll-behavior: smooth;
 }
 
 .link-spis
@@ -549,28 +535,8 @@ button
 
 }
 
-@media screen and (max-width:800px) {
-    .header{
-        font-size: 20px;
-    }
-    .footer{
-        display: block;
-        text-align: center;
-        width: 100%;
-    }
-    .footer-list{
-        margin-bottom: 10px;
-    }
-    #logoIndex{
-        height: 28px;
-        width: auto;
-    }
-
-    .list
-    {
-        margin-left: -25px;
-    }
-
+@media screen and (max-width:850px)
+{
     .menu-button-container 
     {
         display: flex;
@@ -629,6 +595,29 @@ button
     .menu > li:not(:last-child) 
     {
         border-bottom: 1px solid #112D4E;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .header{
+        font-size: 20px;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-list{
+        margin-bottom: 10px;
+    }
+    #logoIndex{
+        height: 28px;
+        width: auto;
+    }
+
+    .list
+    {
+        margin-left: -25px;
     }
 }
 
