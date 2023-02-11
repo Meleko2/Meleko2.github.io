@@ -147,11 +147,11 @@
     }   
 
     .box{
-        width: 320px;
+        width: 300px;
     }
 
     .wideBox{
-        width: 320px;
+        width: 300px;
         align-items: center; 
         padding-top: 0;
     }
