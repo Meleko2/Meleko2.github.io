@@ -157,15 +157,15 @@
     }
 
     .imgBox{
-        transform: scale(82%);
-        -moz-transform: scale(82%);
-        -webkit-transform: scale(82%);
+        transform: scale(80%);
+        -moz-transform: scale(80%);
+        -webkit-transform: scale(80%);
     }
 
     .headersBox{
-        transform: scale(83%);
-        -moz-transform: scale(83%);
-        -webkit-transform: scale(83%);
+        transform: scale(81%);
+        -moz-transform: scale(81%);
+        -webkit-transform: scale(81%);
         margin-right: 10px;
     }
     
