@@ -148,24 +148,26 @@
 
     .box{
         width: 300px;
+        height: 450px;
     }
 
     .wideBox{
         width: 300px;
+        height: 450px;
         align-items: center; 
         padding-top: 0;
     }
 
     .imgBox{
-        transform: scale(80%);
-        -moz-transform: scale(80%);
-        -webkit-transform: scale(80%);
+        transform: scale(76%);
+        -moz-transform: scale(76%);
+        -webkit-transform: scale(76%);
     }
 
     .headersBox{
-        transform: scale(81%);
-        -moz-transform: scale(81%);
-        -webkit-transform: scale(81%);
+        transform: scale(77%);
+        -moz-transform: scale(77%);
+        -webkit-transform: scale(77%);
         margin-right: 10px;
     }
     
@@ -174,4 +176,8 @@
         display: none;
     }
     
+    .headersBox > .header{
+        transform: scale(110%);
+    }
+
 }
