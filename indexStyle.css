@@ -168,4 +168,10 @@
         -webkit-transform: scale(83%);
         margin-right: 10px;
     }
+    
+    #background
+    {
+        display: none;
+    }
+    
 }
