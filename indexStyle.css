@@ -19,6 +19,7 @@
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .wideBox:hover
@@ -59,11 +60,15 @@
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .box:hover
 {
     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .boxy
@@ -162,12 +167,14 @@
         transform: scale(76%);
         -moz-transform: scale(76%);
         -webkit-transform: scale(76%);
+        -o-transform: scale(76%);
     }
 
     .headersBox{
         transform: scale(77%);
         -moz-transform: scale(77%);
         -webkit-transform: scale(77%);
+        -o-transform: scale(77%);
         margin-right: 10px;
     }
     
@@ -178,6 +185,9 @@
     
     .headersBox > .header{
         transform: scale(110%);
+        -moz-transform: scale(110%);
+        -webkit-transform: scale(110%);
+        -o-transform: scale(110%);
     }
 
 }
