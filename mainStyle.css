@@ -342,6 +342,20 @@ body
     text-decoration: none;
 }
 
+#down-footer
+{
+    background-color: #161616;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#down-footer > a{
+    color: #8a8a8a;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+} 
+
 .footer > * > p
 {
     color: #b1b1b1;
@@ -623,7 +637,7 @@ button
         margin-bottom: 10px;
     }
     #logoIndex{
-        height: 28px;
+        height: 40px;
         width: auto;
     }
 
