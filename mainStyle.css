@@ -327,7 +327,6 @@ body
     color: #8a8a8a;
     font-family: 'Inter';
     font-weight: 400;
-    margin-bottom: 0;
 }
 
 .footer-list
@@ -335,7 +334,6 @@ body
     line-height: 25px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0;
 }
 
 .footer > .footer-list > a
@@ -349,7 +347,6 @@ body
     background-color: #161616;
     text-align: center;
     padding: 5px 0px;
-    margin: 0;
 }
 
 #down-footer > a{
@@ -358,6 +355,11 @@ body
     font-family: 'Inter';
     font-weight: 400;
 } 
+
+#copyleft{
+    display: inline-block;
+    transform: rotate(180deg);
+}
 
 .footer > * > p
 {
@@ -369,23 +371,49 @@ body
     padding-bottom: 15px;
 }
 
-button
-{
-    color: #fff;
-    background-color: #3F72AF;
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    outline: 0;
-    border: 0;
-    border-radius: 0.25rem;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3d405b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 180px;
+    transition: all 0.5s;
     cursor: pointer;
-    margin-top: 10px;
+    margin: 5px;
     display: block;
-    margin-left: auto;
     margin-right: auto;
-}
+    margin-left: auto;
+   }
+   
+   button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   button:hover span {
+    padding-right: 15px;
+   }
+   
+   button:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+  
   
 /* CAROUSEL*/
 
@@ -636,9 +664,6 @@ button
         text-align: center;
         width: 100%;
     }
-    .footer-list{
-        margin-bottom: 10px;
-    }
     #logoIndex{
         height: 40px;
         width: auto;
@@ -647,6 +672,12 @@ button
     .list
     {
         margin-left: -25px;
+    }
+    button
+    {
+        font-size: 12px;
+        letter-spacing: 1px;
+        width: 131px;
     }
 }
 
