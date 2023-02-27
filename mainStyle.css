@@ -48,7 +48,7 @@ body
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #DBE2EF;
+    background-color: #1a1a1a;
     height: 50px;
     padding: 1em;
     box-sizing:border-box;
@@ -61,7 +61,7 @@ body
 
 .top-nav > ul > li > a
 {
-    color: #252525;
+    color: #ececec;
     font-family: 'Roboto';
     font-size: 20px;
     text-decoration: none;
